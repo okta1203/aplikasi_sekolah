@@ -23,3 +23,4 @@
 <link rel="stylesheet" href="<?= base_url();?>assets/admin_lte/plugins/daterangepicker/daterangepicker.css">
 <!-- summernote -->
 <link rel="stylesheet" href="<?= base_url();?>assets/admin_lte/plugins/summernote/summernote-bs4.min.css">
+<script src="<?=base_url(); ?>node_modules/sweetalert/dist/sweetalert.min.js"></script>

@@ -6,6 +6,16 @@
 </head>
 
 <body class="hold-transition sidebar-mini layout-fixed">
+    <?php if ($this->session->flashdata('success_login')){ ?>
+    <script>
+    swal({
+        title: "Berhasil Login!",
+        text: "Anda Telah Login Sebagai Admin",
+        icon: "success"
+    });
+    </script>
+    <?php } ?>
+
     <div class="wrapper">
 
         <!-- Preloader -->
@@ -128,8 +138,8 @@
                             </div>
                         </div>
                         <!-- ./col -->
-                                <!-- ./col -->
-                                <div class="col-lg-3 col-6">
+                        <!-- ./col -->
+                        <div class="col-lg-3 col-6">
                             <!-- small box -->
                             <div class="small-box bg-success">
                                 <div class="inner">

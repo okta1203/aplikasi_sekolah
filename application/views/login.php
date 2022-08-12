@@ -19,6 +19,15 @@
 </head>
 
 <body>
+<?php if ($this->session->flashdata('success_log_out')){ ?>
+    <script>
+    swal({
+        title: "success!",
+        text: "Anda Telah Log Out !",
+        icon: "success"
+    });
+    </script>
+    <?php } ?>
 
     <?php if ($this->session->flashdata('register')){ ?>
     <script>
@@ -42,6 +51,18 @@
 
     <?php if ($this->session->flashdata('loggin_err_no_password')){ 
         $message = $this->session->flashdata('loggin_err_no_password');
+        ?>
+    <script>
+    swal({
+        title: "error!",
+        text: "<?=$message?>",
+        icon: "error"
+    });
+    </script>
+    <?php } ?>
+
+    <?php if ($this->session->flashdata('loggin_err_no_access')){ 
+        $message = $this->session->flashdata('loggin_err_no_access');
         ?>
     <script>
     swal({
