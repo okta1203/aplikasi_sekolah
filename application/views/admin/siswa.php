@@ -230,7 +230,7 @@
                                                                 </div>
                                                                 <div class="form-group">
                                                                     <label for="tanggal_lahir">Tanggal Lahir</label>
-                                                                    <input type="text" class="form-control"
+                                                                    <input type="date" class="form-control"
                                                                         id="tanggal_lahir" name="tanggal_lahir"
                                                                         aria-describedby="emailHelp" required>
 
@@ -272,14 +272,14 @@
                                                                 </div>
                                                                 <div class="form-group">
                                                                     <label for="ijazah">Ijazah</label>
-                                                                    <input type="text" class="form-control" id="ijazah"
+                                                                    <input type="file" class="form-control" id="ijazah"
                                                                         name="ijazah" aria-describedby="emailHelp"
                                                                         required>
 
                                                                 </div>
                                                                 <div class="form-group">
                                                                     <label for="foto">Foto</label>
-                                                                    <input type="text" class="form-control" id="foto"
+                                                                    <input type="file" class="form-control" id="foto"
                                                                         name="foto" aria-describedby="emailHelp"
                                                                         required>
 
@@ -332,15 +332,15 @@
 
                                                                 </div>
 
-                                                                    <input type="text" class="<?=$id_user?>"
-                                                                        data-dismiss="foto_siswa_old" hidden>
-                                                                    <button type="button" class="<?=$id_user?>">
-                                                                       name="id_siswa" hidden>
+                                                                <input type="text" class="<?=$id_user?>"
+                                                                    data-dismiss="foto_siswa_old" hidden>
+                                                                <button type="button" class="<?=$id_user?>">
+                                                                    name="id_siswa" hidden>
 
-                                                                          <button type="submit"
-                                                                class="btn btn-primary">Submit</butto>
-                                                                </form>
-                                                            
+                                                                    <button type="submit" class="btn btn-primary">Submit
+                                                                        </butto>
+                                                            </form>
+
                                                         </div>
                                                     </div>
                                                 </div> <!-- Modal Hapus Siswa -->
@@ -411,18 +411,19 @@
                                             </div>
                                             <div class="form-group">
                                                 <label for="email">Email</label>
-                                                <textarea class="form-control" id="email" name="email" rows="3"
-                                                    required></textarea>
+                                                <input type="text" class="form-control" id="email" name="email"
+                                                    aria-describedby="emailHelp" required>
+
                                             </div>
                                             <div class="form-group">
                                                 <label for="password">Password</label>
-                                                <input type="file" class="form-control" id="password" name="password"
+                                                <input type="text" class="form-control" id="password" name="password"
                                                     aria-describedby="emailHelp" required>
 
                                             </div>
                                             <div class="form-group">
                                                 <label for="nama_lengkap">Nama Lengkap</label>
-                                                <input type="date" class="form-control" id="nama_lengkap"
+                                                <input type="text" class="form-control" id="nama_lengkap"
                                                     name="nama_lengkap" aria-describedby="emailHelp" required>
 
                                             </div>
@@ -440,7 +441,7 @@
                                             </div>
                                             <div class="form-group">
                                                 <label for="tanggal_lahir">Tanggal Lahir</label>
-                                                <input type="text" class="form-control" id="tanggal_lahir"
+                                                <input type="date" class="form-control" id="tanggal_lahir"
                                                     name="tanggal_lahir" aria-describedby="emailHelp" required>
 
                                             </div>
@@ -470,19 +471,19 @@
                                             </div>
                                             <div class="form-group">
                                                 <label for="skhun">Skhun</label>
-                                                <input type="text" class="form-control" id="skhun" name="skhun"
+                                                <input type="file" class="form-control" id="skhun" name="skhun"
                                                     aria-describedby="emailHelp" required>
 
                                             </div>
                                             <div class="form-group">
                                                 <label for="ijazah">Ijazah</label>
-                                                <input type="text" class="form-control" id="ijazah" name="ijazah"
+                                                <input type="file" class="form-control" id="ijazah" name="ijazah"
                                                     aria-describedby="emailHelp" required>
 
                                             </div>
                                             <div class="form-group">
                                                 <label for="foto">Foto</label>
-                                                <input type="text" class="form-control" id="foto" name="foto"
+                                                <input type="file" class="form-control" id="foto" name="foto"
                                                     aria-describedby="emailHelp" required>
 
                                             </div>
