@@ -10,7 +10,7 @@
     <script>
     swal({
         title: "Success!",
-        text: "Data Berhasil Ditambahkan",
+        text: "Data Berhasil Ditambahkan!",
         icon: "success"
     });
     </script>
@@ -20,7 +20,7 @@
         <script>
             swal({
         title: "Eror!",
-        text: "Data Gagal Ditambahkan",
+        text: "Data Gagal Ditambahkan!",
         icon: "eror"
     });
     </script>
@@ -30,7 +30,7 @@
         <script>
              swal({
         title: "Eror!",
-        text: "Data Gagal Ditambahkan",
+        text: "Data Gagal Ditambahkan!",
         icon: "eror"
     });
     </script>
@@ -40,7 +40,7 @@
         <script>
              swal({
         title: "Success!",
-        text: "Data Berhasil Diedit",
+        text: "Data Berhasil Diedit!",
         icon: "success"
     });
     </script>
@@ -50,7 +50,7 @@
         <script>
             swal({
         title: "Eror!",
-        text: "Data Gagal Diedit",
+        text: "Data Gagal Diedit!",
         icon: "eror"
     });
     </script>
@@ -60,7 +60,7 @@
         <script>
             swal({
         title: "Success!",
-        text: "Data Berhasil Dihapus",
+        text: "Data Berhasil Dihapus!",
         icon: "success"
     });
     </script>
@@ -70,7 +70,7 @@
         <script>
             swal({
         title: "Eror!",
-        text: "Data Gagal Dihapus",
+        text: "Data Gagal Dihapus!",
         icon: "eror"
     });
     </script>
@@ -80,12 +80,6 @@
 
 
 
-
-
-
-  
-        
-    
     <div class="wrapper">
 
         <!-- Preloader -->

@@ -69,14 +69,12 @@ class Data_pengumuman extends CI_Controller {
  
 	public function edit_pengumuman()
 	{
-		$judul_pengumuman = $this->input->post('judul_pengumuman');
 		$id_pengumuman = $this->input->post('id_pengumuman');
+		$judul_pengumuman = $this->input->post('judul_pengumuman');
 			$isi_pengumuman = $this->input->post('isi_pengumuman');
 			$created_at = $this->input->post('created_at');
 			$penulis_pengumuman = $this->input->post('penulis_pengumuman');
 			$foto_name = md5($judul_pengumuman.$isi_pengumuman.$created_at.rand(1,9999));
-
-		
 
 			$path = './assets/gambar/';
 

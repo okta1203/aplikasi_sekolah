@@ -2,7 +2,13 @@
 
 class M_user extends CI_Model
 {
+    public function read_all_user_siswa()
+    {
 
+        $hasil=$this->db->query("SELECT * FROM user JOIN user_detail ON user.id_user=user_detail.id_user_detail WHERE user.id_user_level='2'");
+        return $hasil;
+
+    }
     public function register_user($id_user, $username, $email, $pass, $id_user_level,
     $id_status_verifikasi, $id_status_lulus) {
         $this->db->trans_start();
