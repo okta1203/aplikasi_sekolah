@@ -25,6 +25,28 @@
     swal({
         title: "success!",
         text: "Anda Telah Berhasil Register, Silahkan Login",
+        icon: "success"
+    });
+    </script>
+    <?php } ?>
+
+    <?php if ($this->session->flashdata('loggin_err_no_user')){ ?>
+    <script>
+    swal({
+        title: "error!",
+        text: "Anda Belum Terdaftar, Silahkan Mendaftar !",
+        icon: "error"
+    });
+    </script>
+    <?php } ?>
+
+    <?php if ($this->session->flashdata('loggin_err_no_password')){ 
+        $message = $this->session->flashdata('loggin_err_no_password');
+        ?>
+    <script>
+    swal({
+        title: "error!",
+        text: "<?=$message?>",
         icon: "error"
     });
     </script>
